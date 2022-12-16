@@ -1,0 +1,106 @@
+@media(max-width: 400px){
+    html{
+        font-size: 70%;
+    }
+    .bar{
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 0 1rem;
+    }
+    .close{
+        display: block;
+        width: 100%;
+    }
+    .bar img{
+        width: 100%;
+        height: 100%;
+    }
+    .container ul{
+        position: absolute;
+        width: 70%;
+        overflow: hidden;
+        padding: 2rem;
+        top: 0;
+        left: -25rem;
+        list-style: none;
+        display: block;
+        align-items: center;
+        margin: 0;
+        background: #fff;
+        height: 100vh;
+        scroll-behavior: unset;
+        z-index: 2;
+    }
+    .container ul a{
+        margin: 2rem 0;
+        font-size: 2rem;
+    }
+    .navbar-right{
+        width: 20%;
+    }
+
+
+    .iamges-area{
+        width: 100%;
+        padding: 0;
+    }
+    .image-box{
+        border-radius: 0;
+        width: 32rem;
+    }
+    .main-image{
+        width: 32rem;
+    }
+    #header{
+        display: block;
+        padding: 0;
+    }
+    .bottom-images{
+        display: none;
+    }
+    .desription-area{
+        padding: 1.5rem;
+        width: 100%;
+    }
+    .desc-main p{
+        margin-top: 2rem;
+    }
+    .desc-main h1{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    .desc-main{
+        width: 100%;
+    }
+    .price-area{
+        display: flex;
+        justify-content: space-between;
+    }
+    .quantity-area{
+        display: block;
+        width: 100%;
+        
+        margin-top: 3rem;
+    }
+    .qty{
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+    .quantity-area button{
+        width: 100%;
+        margin-top: 1rem;
+        padding: 1rem 0;
+    }
+    .slide-btns-area{
+        position: absolute;
+        width: 26rem;
+        margin: 0 auto;
+        background: transparent;
+        top: 13rem;
+        left: 2.8rem;
+        display: flex;
+        justify-content: space-between;
+        z-index: 1;
+    }
+}
